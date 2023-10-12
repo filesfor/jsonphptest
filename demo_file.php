@@ -1,8 +1,8 @@
 <?php
 $myObj = new stdClass();
-$myObj->name = "Jeff";
-$myObj->age = 30;
-$myObj->city = "New York";
+$myObj->test1 = "test1";
+$myObj->test2 = "test2";
+$myObj->test3 = "test3";
 
 $myJSON = json_encode($myObj);
 
